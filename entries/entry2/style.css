@@ -1,0 +1,38 @@
+body {
+    background-color:#ffebcd;
+    font-family: 'futura', monospace;
+}
+header {
+    height: 2in;}
+h1{
+    color: #2a2a2a;
+    height: 4in;
+}
+img {
+    max-width:60%;
+    align-items: center;
+}
+    
+.topnav {
+    overflow: hidden;
+
+    background-color: rgb(44, 44, 44);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffebcd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+p{
+     float: inline-end;
+     text-align: center;
+              color: #101010;
+         font-size: 24px;
+         line-height: 140%;
+     }
+      .text {
+         padding: 20px;}

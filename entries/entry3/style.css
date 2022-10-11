@@ -1,0 +1,66 @@
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    color: white;
+    background-clip: url(blackandwhiteimage.jpg);
+    -webkit-background-clip: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: ease-in-out alternate infinite;
+} 
+
+    div{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    color: white;
+    background-clip: url(https://img.freepik.com/premium-photo/half-horizontal-black-white-background_146508-738.jpg);
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-timing-function: ease-in-out;
+} 
+div {
+      width: 100px;
+      height: 100px;
+      background-image: url(blackandwhiteimage.jpg);
+      transition: width 2s;
+    }
+    
+div:hover {
+      width: 300px;
+    }
+
+@keyframes animate{
+    from
+    {
+        background-position: center 40%;
+    }
+    to
+    {
+        background-position: center 60%;
+    }
+}
+
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
