@@ -1,0 +1,245 @@
+body {
+    background-color:#000000;
+  }
+
+.spotifybutton {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    height: 200px;
+    width:200px;
+    background-color: #282727;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(69, 69, 69);
+  }
+  
+  .spotifybutton:hover {background-color: #b1b1b1}
+  
+  .spotifybutton:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2cm;
+  }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:transparent;
+    width: 83%;
+  }
+
+  a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #ffffff;
+}
+
+.grid-container {
+    display: grid;
+  /*    */
+    grid-template-columns:auto auto auto auto auto auto;
+    column-gap: 10px ;
+    grid-gap: 50px;
+    background-color: transparent;
+  }
+
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    font-size: 50px;
+  }
+
+/* Rectangle 6 */
+
+.rectangle6{
+width: 422px;
+height: 851px;
+left: 4px;
+top: 30px;
+
+background: #000000;}
+
+
+.rectangle6{
+    width: 192px;
+    height: 192px;
+    left: 12px;
+    top: 234px;
+    background: #000000;}
+/* Rectangle 1 */
+
+.rectangle1{
+width: 192px;
+height: 192px;
+left: 12px;
+top: 234px;
+background: #E1E42A;}
+
+
+/* Rectangle 2 */
+
+.rectangle2{
+width: 192px;
+height: 192px;
+background: #27BF36;}
+
+
+/* Rectangle 3 */
+
+.rectangle3{
+width: 192px;
+height: 192px;
+background: #9DD4E0;
+align-items: right;}
+
+
+/* Rectangle 5 */
+
+.rectangle5{
+width: 192px;
+height: 58px;
+background: #5C6162;}
+
+
+/* Rectangle 4 */
+
+.rectangle4{
+width: 192px;
+height: 192px;
+background: #CB2E37;}
+
+
+/* YOUR LIBRARY */
+
+.yourlibrary{
+width: 146px;
+height: 22px;
+left: 51px;
+top: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+
+/* Liked Songs */
+
+.likedsong{
+width: 146px;
+height: 22px;
+left: 12px;
+top: 434px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+
+
+/* Butterfly Effect */
+
+.butterflyeffect{
+width: 146px;
+height: 22px;
+left: 50px;
+top: 803px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+
+
+/* Other Songs */
+
+.othersongs{
+width: 146px;
+height: 22px;
+left: 220px;
+top: 434px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+
+
+/* Song Songs */
+
+.songsongs{
+width: 146px;
+height: 22px;
+left: 220px;
+top: 704px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF}
+
+
+
+/* More Songs */
+
+.moresongs{
+width: 146px;
+height: 22px;
+left: 12px;
+top: 704px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+
+
+/* Polygon 1 */
+
+.triangle{
+width: 35px;
+height: 35px;
+left: 401px;
+top: 797px;
+
+background: #D9D9D9;
+transform: rotate(90deg);}

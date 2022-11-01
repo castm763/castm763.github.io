@@ -34,3 +34,25 @@ div {
     font-style: normal;
     color: black;
 }
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  padding-right: 2cm;
+  padding-left: 2cm;
+  text-justify: distribute;
+  text-align: justify;
+}
+
+p>.blackout:hover {
+  color: #ffffff;}
+
+.blackout{ 
+ color:black}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: #ffffff;
+}

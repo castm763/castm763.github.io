@@ -20,10 +20,18 @@ p {
     padding-right: 2cm;
     padding-left: 2cm;
     text-justify: distribute;
+    text-align: justify;
 }
 
-blackout:hover{
-    font-style: normal;
-    color: black;
-}
+p>.blackout:hover {
+    color: #ffffff;}
 
+ .blackout{ 
+   color:black}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #ffffff;
+}

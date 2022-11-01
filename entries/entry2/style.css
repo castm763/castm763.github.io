@@ -26,3 +26,10 @@ blackout:hover{
     font-style: normal;
     color: black;
 }
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #ffffff;
+}
