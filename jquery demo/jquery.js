@@ -18,10 +18,6 @@ $(document).ready(function() {
      }); 
     })
 
-    $(document).ready(function()  {
-        $("#ufo").hover(function(){
-              $("#earthling").append("we come in peaceeeee")
-               });
-         
-        })
-        
+    $(document).ready(function()  {        
+    $("#earthling").append("we come in peaceeeee")
+               });        
