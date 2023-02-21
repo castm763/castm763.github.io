@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    background-size: small;
+    color: white;
+    font-size: 18px;
+    line-height:1.5em;
+    text-align: left;
+}
+
+h1{
+    font-size: 128px;
+    font-weight: 400;
+}
+
+.box-model {
+  display: block;
+  min-height: 300px;  
+  padding: 50px;
+  margin: 1in 20% 20% 20%;
+  background-color: transparent;
+  position: relative;
+  z-index: 5;
+}
+
+img{
+  width: 22px;
+  position: absolute;
+}
+
+.hover_img {
+  position: absolute;
+  display: none;
+}
+
+.img:hover .hover_img {
+  display: inline;
+  }
+
+
+.glow {
+  color: #fff;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+  from {text-shadow: 0 0 0px #fff}
+        
+  to {text-shadow: 0 0 2px  #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340, 
+  0 0 2px #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340;}
+  } 
+
+a{
+  color: white;
+  text-decoration: none;
+}

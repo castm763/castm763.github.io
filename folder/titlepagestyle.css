@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 10vw; 
+    font-weight: 400;
+    text-align: right;
+}
+
+img{
+  width: 22px;
+  position: absolute;
+}
+
+.box-model {
+  display: block;
+  min-height: 300px;  
+  padding: 50px;
+  margin: 1.5in 5% 20% 20%;
+  background-color: transparent;
+  position: relative;
+
+}
+
+img{
+  width: 5vw;
+}
+
+.hover_img {
+  position: absolute;
+  display: none;
+}
+
+.img:hover .hover_img {
+  display: absolute;
+  }
+
+
+.glow {
+  color: #fff;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+  @keyframes glow {
+    from {text-shadow: 0 0 0px #fff}
+          
+    to {text-shadow: 0 0 30px  #efa340;}
+    } 
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }

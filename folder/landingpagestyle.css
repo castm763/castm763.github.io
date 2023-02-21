@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    background-size: small;
+    color: white;
+    font-size: 18px;
+    line-height:1.5em;
+    text-align: justify;
+}
+
+h1{
+    font-size: 128px;
+    font-weight: 400;
+}
+
+.box-model {
+  display: block;
+  min-height: 300px;  
+  padding: 50px;
+  margin: 1in 20% 20% 20%;
+  background-color: transparent;
+  position: relative;
+  z-index: 5;
+}
+
+img{
+  width: 5px;
+  position: absolute;
+  animation:glow 3s ease-in-out infinite alternate;
+}
+
+.glow{
+  width: 22px;
+}
+
+  @keyframes glow {
+    from {
+      width: 22px;
+      height: 22px;
+      border-radius: 90%;}
+        
+    to {
+      width: 22px;
+      height: 22px;
+      border-radius: 90%;
+      box-shadow: 
+      0 0 30px 15px #fff,  /* inner white */
+      0 0 60px 30px #efa340, /* middle magenta */
+      0 0 60px 30px #efa340;}
+      } 
+  

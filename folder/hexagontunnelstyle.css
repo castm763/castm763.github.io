@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.flex-container {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center; 
+    padding-top:1in;
+    animation: mymove 25s infinite linear;   
+    margin-bottom: 15px;
+}
+
+  .hoverme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 750ms;
+    transition-property: background-color, width, height, scale, transform;
+    transition-timing-function: ease;
+  /*   transition: all 750ms ease-in-out; */
+  /*   transition: width 750ms ease-in-out; */
+  }
+  .hoverme:hover {
+    transform: translateY(-50px) scale(5) rotate(-80deg);
+  }
+
+  img{
+   display: flex;
+  }
+  
+  .hover_img {
+    position: absolute;
+    display: none;
+  }
+  
+  .img:hover .hover_img {
+    display: inline;
+    }
+
+  
+.glow {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+    
+@keyframes glow {
+  from {text-shadow: 0 0 0px #fff;}
+      
+  to {text-shadow: 0 0 2px  #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340, 
+    0 0 2px #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340, 0 0 2px  #efa340;}
+    } 
